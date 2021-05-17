@@ -20,6 +20,8 @@
 + "Contato";
 + "Minha conta".
 
+![InterfaceEx](https://user-images.githubusercontent.com/81762226/118534751-f5c30500-b71f-11eb-8987-0ffaa1973f6f.gif)
+
 *The prototype of the system aims to register, and manage the length of stay, the amount to be paid by the car parking user.*
 
 ### The tools used to create our interface were:
