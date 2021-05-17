@@ -1,0 +1,146 @@
+body{
+    background-color: #283041;
+    font-family: "Gill Sans MT";
+    color: rgb(39, 39, 39);
+}
+
+@font-face{
+    font-family: bebas_neue;
+    src: url(bebasneue-regular-webfont.woff);
+}
+
+#recsenha{
+    position: absolute;
+    top: 50px;
+}
+
+#titulo{
+    background-color: #23B574;
+    height: 60px;
+    width: 280px;
+    color: rgb(236, 236, 236);
+    font-size: 20px;
+    padding: 18px;
+    padding-left: 55px;
+    position: absolute;
+    left: 70px;
+    top: -30px;
+}
+
+#container{
+    background: #222836;
+    position: absolute;
+    left: -60px;
+    top: 171px;
+    padding: 25px;
+    width: 420px;
+    height: 290px;
+    box-shadow: #161a24 10px 10px 10px -3px;
+}
+
+#txtmail, #txtsenha, #txtcod{
+    color: #cccccc;
+    padding-left: 15px;
+    width: 370px;
+    height: 45px;
+    background-color: #282F3F;
+    border: none;
+    border-radius: 5px;
+}
+
+#txtcod{
+    margin-top: -10px;
+}
+
+#txtmail{
+    margin-top: 25px;
+    margin-bottom: -10px;
+}
+
+#btn1{
+    background-color: #23B574;
+    color: rgb(236, 236, 236);
+    width: 180px;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    position: absolute;
+    top: 232px;
+    left: 215px;
+}
+
+#btn1:hover{
+    background-color: #198152;
+    text-decoration: none;
+    transition-duration: 0.4s
+}
+
+#btn1:focus {outline:0;}
+
+#txtmail:focus {outline:0;}
+
+#txtsenha:focus {outline:0;}
+
+#txtcod:focus {outline:0;}
+
+::-webkit-input-placeholder {
+    color: #aaaaaa;
+}
+
+header{
+    width: 100%;
+    background-color: #222836;
+    height: 105px;
+}
+
+#btn2{
+    background-color: #23B574;
+    color: rgb(236, 236, 236);
+    width: 130px;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    position: fixed;
+    left: 1070px;
+    top: 33px;
+}
+
+#logo{
+    color: #23B574;
+    padding-left: 150px;
+    padding-top: 23px;
+    font-family: bebas_neue;
+    font-size: 50px;
+}
+
+.linkcab{
+    font-size: 15px;
+    color: #cccccc;
+    margin-left: 26px;
+    text-decoration: none;
+}
+
+#login{
+    position: absolute;
+    top: 39px;
+    left: 450px;
+}
+
+#recsenha{
+    position: absolute;
+    top: 39px;
+    left: 530px;
+}
+
+.linkcab:hover{
+    color: #7c7f86;
+    transition-duration: 0.4s;
+}
+
+#btn2:hover{
+    background-color: #198152;
+    text-decoration: none;
+    transition-duration: 0.4s
+}
+
+#btn2:focus {outline:0;}

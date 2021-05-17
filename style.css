@@ -1,0 +1,159 @@
+body{
+    background-color: #283041;
+    font-family: "Gill Sans MT";
+    color: rgb(39, 39, 39);
+}
+
+@font-face{
+    font-family: bebas_neue;
+    src: url(bebasneue-regular-webfont.woff);
+}
+
+#interface{
+    position: absolute;
+    top: 80px;
+}
+
+.linkcab{
+    font-size: 15px;
+    color: #cccccc;
+    margin-left: 26px;
+    text-decoration: none;
+}
+
+#login{
+    position: absolute;
+    top: 39px;
+    left: 450px;
+}
+
+#recsenha{
+    position: absolute;
+    top: 39px;
+    left: 530px;
+}
+
+#logo{
+    color: #23B574;
+    padding-left: 150px;
+    padding-top: 23px;
+    font-family: bebas_neue;
+    font-size: 50px;
+}
+
+#titulo{
+    background-color: #23B574;
+    height: 60px;
+    width: 280px;
+    color: rgb(236, 236, 236);
+    font-size: 20px;
+    padding: 18px;
+    padding-left: 90px;
+    position: absolute;
+    left: 70px;
+    top: -30px;
+}
+
+#container{
+    background: #222836;
+    position: absolute;
+    left: 470px;
+    top: 130px;
+    padding: 25px;
+    width: 420px;
+    height: 260px;
+    box-shadow: #161a24 10px 10px 10px -3px;
+}
+
+#txtmail, #txtsenha{
+    color: #cccccc;
+    padding-left: 15px;
+    width: 370px;
+    height: 45px;
+    background-color: #282F3F;
+    border: none;
+    border-radius: 5px;
+    padding-left: 45px;
+}
+
+#txtmail{
+    margin-top: 40px;
+    margin-bottom: -10px;
+}
+
+header{
+    width: 100%;
+    background-color: #222836;
+    height: 105px;
+}
+
+#btn1{
+    background-color: #23B574;
+    color: rgb(236, 236, 236);
+    width: 180px;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    position: absolute;
+    top: 200px;
+    left: 116px;
+}
+
+#btn2{
+    background-color: #23B574;
+    color: rgb(236, 236, 236);
+    width: 130px;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    position: fixed;
+    left: 1070px;
+    top: 33px;
+}
+
+#btn1:hover{
+    background-color: #198152;
+    text-decoration: none;
+    transition-duration: 0.4s
+}
+
+#btn1:focus {outline:0;}
+
+#txtmail:focus {outline:0;}
+
+#txtsenha:focus {outline:0;}
+
+::-webkit-input-placeholder {
+    color: #aaaaaa;
+}
+
+.linkcab:hover{
+    color: #7c7f86;
+    transition-duration: 0.4s;
+}
+
+#btn2:hover{
+    background-color: #198152;
+    text-decoration: none;
+    transition-duration: 0.4s
+}
+
+#btn2:focus {outline:0;}
+
+#far_fa-envelope{
+    color: #23B574;
+}
+
+#mail{
+    color: #aaaaaa;
+    position: absolute;
+    top: 80px;
+    left: 38px;
+}
+
+#pass{
+    color: #aaaaaa;
+    position: absolute;
+    top: 138px;
+    left: 40px;
+}

@@ -1,0 +1,141 @@
+body{
+    background-color: #283041;
+    font-family: "Gill Sans MT";
+    color: rgb(39, 39, 39);
+}
+
+#interface{
+    position: absolute;
+    top: 0px;
+}
+
+#titulo{
+    background-color: #23B574;
+    height: 60px;
+    width: 280px;
+    color: rgb(236, 236, 236);
+    font-size: 20px;
+    padding: 18px;
+    padding-left: 85px;
+    position: absolute;
+    left: 170px;
+    top: -30px;
+}
+
+#container{
+    background: #222836;
+    position: absolute;
+    left: 370px;
+    top: 130px;
+    padding: 25px;
+    width: 620px;
+    height: 405px;
+    box-shadow: #161a24 10px 10px 10px -3px;
+}
+
+#txtmail, #txtmail2, #txtcpf, #txtend, #txttel, #txtplc, #txtmod, #txtsenha, #txtnome, #txtsobrenome{
+    color: #cccccc;
+    padding-left: 15px;
+    width: 280px;
+    height: 45px;
+    background-color: #282F3F;
+    border: none;
+    border-radius: 5px;
+}
+
+#txtnome{
+    margin-top: 25px;
+    margin-bottom: -10px;
+}
+
+#txtmail{
+    position: absolute;
+    left: 25px;
+    top: 168px;
+}
+
+#txtmail2{
+    position: absolute;
+    left: 25px;
+    top: 228px;  
+}
+
+#txtcpf{
+    position: absolute;
+    left: 25px;
+    top: 288px;
+}
+
+#txtend{
+    position: absolute;
+    top: 50px;
+    left: 315px;
+}
+
+#txttel{
+    position: absolute;
+    top: 109px;
+    left: 315px;   
+}
+
+#txtplc{
+    position: absolute;
+    top: 168px;
+    left: 315px;
+}
+
+#txtmod{
+    position: absolute;
+    top: 228px;
+    left: 315px;
+}
+
+#txtsenha{
+    position: absolute;
+    top: 288px;
+    left: 315px;
+}
+
+#btn1{
+    background-color: #23B574;
+    color: rgb(236, 236, 236);
+    width: 180px;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    position: absolute;
+    top: 350px;
+}
+
+
+#btn1:hover{
+    background-color: #198152;
+    text-decoration: none;
+    transition-duration: 0.4s
+}
+
+#btn1:focus {outline:0;}
+
+#txtmail:focus {outline:0;}
+
+#txtsenha:focus {outline:0;}
+
+#txtnome:focus {outline:0;}
+
+#txtsobrenome:focus {outline:0;}
+
+#txtmail2:focus {outline:0;}
+
+#txtcpf:focus {outline:0;}
+
+#txtend:focus {outline:0;}
+
+#txttel:focus {outline:0;}
+
+#txtplc:focus {outline:0;}
+
+#txtmod:focus {outline:0;}
+
+::-webkit-input-placeholder {
+    color: #aaaaaa;
+}

@@ -1,0 +1,71 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Carrinho</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styleCarrinho.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+</head>
+<body>
+  <input type="checkbox" id="check">
+  <label for="check">
+    <i class="fas fa-bars" id="btn"></i>
+    <i class="fas fa-times" id="cancel"></i>
+  </label>
+  <div class="menuitens">
+    <header id="tituloMenu">MENU</header>
+        <ul>
+            <a href="perma.html" class="w3-bar-item" target="_self">PERMANÊNCIA</a>
+            <a href="produtos.html" class="w3-bar-item">PRODUTOS</a>
+            <a href="carrinho.html" class="w3-bar-item">CARRINHO</a>
+            <a href="contato.html" class="w3-bar-item" target="_self">CONTATO</a>
+            <a href="menu.html" class="w3-bar-item" target="_self">MINHA CONTA</a>
+        </ul>
+  </div>
+
+  <header>
+    <h2 id="logo">ESTACIONAMENTO</h2>
+  </header>
+
+  <div id="interface">
+    <div id="container">
+      <h2 id="titulo">FORMA DE PAGAMENTO</h1>
+        <div id="pagar">
+            <p>Valor a ser pago: <span>R$ 39,90</span></p>
+            <button class="botao">Ver detalhes</button><br><br>
+            <button class="botao">Aplicar cupom de desconto</button>
+        </div>
+    
+      <div id="info">
+        <label for="pagamento">Selecione uma forma de pagamento:</label>
+            <select id="pagamento" name="pagamento">
+            <option value=""></option>
+            <option value="master">Mastercard (Brasil)</option>
+            <option value="pix">Pix</option>
+            <option value="visa">Visa (Brasil)</option>
+            <option value="cielo">Cielo</option>
+            <option value="din">Dinheiro</option>
+            </select>
+      </div>
+
+      <div id="ic">
+        <img src="img/visa.png" height="50px" class="icones">
+        <img src="img/dinheiro.png" height="50px" class="icones">
+        <img src="img/logo-pix-icone-1024.png" height="50px" class="icones">
+        <img src="img/mastercard-logo-7.png" height="40px" class="icones">
+        <img src="img/LogoCielo1602.png" height="40px" class="icones">
+        </div>
+
+        <p id="texto">
+            Os dados de pagamento enviados são protegidos pela tecnologia de Secure Socket Layer (SSL), certificada por um certificado digital.
+        </p>
+
+      <a href="#"><input type="button" name="bt2" id="btn2" value="EFETUAR PAGAMENTO"></a>
+    </div>
+    
+  </div>
+</body>
+</html>
