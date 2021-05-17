@@ -10,7 +10,7 @@
 + registration;
 + password recovery.
 
-![LOGIN](https://user-images.githubusercontent.com/81762226/118533917-07f07380-b71f-11eb-9348-abbb6ea9904d.JPG)
+![InterfaceInicial](https://user-images.githubusercontent.com/81762226/118535536-f60fd000-b720-11eb-89fd-88e9b5aa7e0d.gif)
 
 ### After initialization we have a standard interface with a sidebar made up of 5 tabs, which are:
 
